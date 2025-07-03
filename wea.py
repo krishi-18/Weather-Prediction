@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 import numpy as np
 
-wea=pickle.load(open('C:/Users/admin/Newfolder/wea.py','rb'))
+wea=pickle.load(open('weather.sav','rb'))
 
 def weather_pre(input_data):
     
