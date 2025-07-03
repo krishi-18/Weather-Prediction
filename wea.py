@@ -31,26 +31,26 @@ def main():
     
     col1,col2,col3=st.columns(3)
     # Input fields
-with col1:
-    Temperature = st.text_input('🌡️ Temperature')
-with col2:
-    Humidity = st.text_input('💧 Humidity')
-with col3:
-    Wind_Speed = st.text_input('🌪️ Wind Speed')
-with col1:
-    Preciptitation = st.text_input('🌧️ Preciptitation (%)')
-with col2:
-    Cloud_Cover = st.text_input('☁️ Cloud Cover')
-with col3:
-    Atmospheric_Pressure= st.text_input('💨 Atmospheric Pressure')
-with col1:
-    UV_Index = st.text_input('☀️ UV Index')
-with col2:
-    Season = st.text_input('🌞 Season')
-with col3:
-    Visibility = st.text_input('🌫️ Visibility (km)')
-with col1:
-    Location = st.text_input('📍 Location')
+    with col1:
+        Temperature = st.text_input('🌡️ Temperature')
+    with col2:
+        Humidity = st.text_input('💧 Humidity')
+    with col3:
+        Wind_Speed = st.text_input('🌪️ Wind Speed')
+    with col1:
+        Preciptitation = st.text_input('🌧️ Preciptitation (%)')
+    with col2:
+        Cloud_Cover = st.text_input('☁️ Cloud Cover')
+    with col3:
+        Atmospheric_Pressure= st.text_input('💨 Atmospheric Pressure')
+    with col1:
+        UV_Index = st.text_input('☀️ UV Index')
+    with col2:
+        Season = st.text_input('🌞 Season')
+    with col3:
+        Visibility = st.text_input('🌫️ Visibility (km)')
+    with col1:
+        Location = st.text_input('📍 Location')
 
     diagnosis = ''
 
